@@ -2,7 +2,7 @@ const ACCESS_KEY = "e0e6f67d290f588bf2b1b853ee40663e";
 const locationQuery = "Riihimäki";
 const units = "m";
 
-const endpoint = `http://api.weatherstack.com/current?access_key=${ACCESS_KEY}&query=${locationQuery}&units=${units}`;
+const endpoint = `https://api.weatherstack.com/current?access_key=${ACCESS_KEY}&query=${locationQuery}&units=${units}`;
 
 const displayElement = document.getElementById('weather-info');
 
